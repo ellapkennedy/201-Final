@@ -1,0 +1,49 @@
+/*!index and About Me page, overwrite a total of at least 4 style attributes (e.g. font-family, color, text-alignment, etc.) using at least 4 custom style definitions (e.g. p, H1, .bold, .italic) with custom styles defined in a custom, separate*/
+
+body{
+    background-color: light-gray;
+}
+h5{
+    font-weight: bold;
+    color: darkblue;
+    text-align: justify;
+}
+
+h6{
+        text-align: justify;
+        font-style: italic;
+    font-weight: lighter;
+        
+    }
+
+.row{
+    display: flex;
+}
+
+img{
+    border: 2px solid black;
+}
+
+a{
+    color:light-blue;
+}
+
+a:hover{
+    font-weight:200;
+}
+
+a:vistied{
+    color:light-blue;
+}
+.my_font{
+    color:light-blue;
+    font-family:sans-serif;
+    font-weight:300;
+}
+
+
+.my_font_two{
+    color:light-blue;
+    font-family:sans-serif;
+}
+

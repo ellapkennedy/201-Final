@@ -1,0 +1,73 @@
+/*! 3 <div> elements*/
+/*! :::::::::::::::: Navigation, Header*/
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+.common {
+    position: absolute;
+    font-family: inherit;
+}
+
+.header {
+   height: 200px;
+    background-color: #DECBC1;
+    width:100vw;
+    
+}
+
+.mainbody {
+    width:75vw;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+
+.big_text{
+    font-size:44px;
+    color: white;
+   
+}
+
+
+.my_nav{
+    background-color: white;
+    padding: 10px;
+    margin-right:10px;
+    margin-top:10px;
+    float:right;
+    border-radius: 8px;
+    width: 200px;
+    text-align:center;
+}
+
+a{
+    color:gray;
+    text-decoration:none;
+}
+a:hover{
+    color:#DECBC1;
+    text-decoration:underline;
+}
+/*! :::::::::::::::: Footer*/
+.footer{
+height:40px;
+resize: horizontal;
+width:100vw;
+background-color: antiquewhite;
+text-align: center;  
+/*!copyright, year, name, links*/    
+}
+
+
+p{
+    color: white;
+    text-align:center;
+}
+
+
+
+/*custom styles (2) for footer and captions*/
